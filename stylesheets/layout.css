@@ -117,6 +117,8 @@ animation-delay: 4.5s;
   margin-top: 12%;
   position: absolute;
   display: inline-block;
+  background-image: url(../images/19.svg);
+  transition: background-image .1s;
 }
 .btn22 {
   margin-left: -88.5%;
