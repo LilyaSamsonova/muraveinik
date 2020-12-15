@@ -1,0 +1,124 @@
+ @keyframes pulseM {
+   from {
+     transform: scale(.50);
+   }
+   50% {
+     transform: scale(1.5);
+   }
+   to {
+     transform: scale(.50);
+     animation-direction: reverse;
+  }
+
+  }
+  @keyframes pulseY {
+    from {
+      transform: scale(.50)
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    to {
+      transform: scale(.50);
+   }
+   }
+   @keyframes pulseR {
+     from {
+       transform: scale(.50);
+     }
+     50% {
+       transform: scale(1.5);
+     }
+     to {
+       transform: scale(.50);
+
+    }
+    }
+    @keyframes pulseA {
+      from {
+        transform: scale(.50);
+      }
+      50% {
+        transform: scale(1.5);
+      }
+      to {
+        transform: scale(.50);
+
+     }
+
+
+     }
+     @keyframes pulseV {
+       from {
+         transform: scale(.50);
+       }
+       50% {
+         transform: scale(1.5);
+       }
+       to {
+         transform: scale(.50);
+
+      }
+
+
+      }
+      @keyframes pulseE {
+         from {
+           transform: scale(.50);
+         }
+         50% {
+           transform: scale(1.5);
+         }
+         to {
+           transform: scale(.50);
+
+       }
+       }
+       @keyframes pulseII {
+          from {
+            transform: scale(.50);
+          }
+          50% {
+            transform: scale(1.5);
+          }
+          to {
+            transform: scale(.50);
+
+        }
+        }
+        @keyframes pulseN {
+           from {
+             transform: scale(.50);
+           }
+           50% {
+             transform: scale(1.5);
+           }
+           to {
+             transform: scale(.50);
+
+         }
+         }
+         @keyframes pulseI {
+            from {
+              transform: scale(.50);
+            }
+            50% {
+              transform: scale(1.5);
+            }
+            to {
+              transform: scale(.50);
+
+          }
+          }
+          @keyframes pulseK {
+             from {
+               transform: scale(.50);
+             }
+             50% {
+               transform: scale(1.5);
+             }
+             to {
+               transform: scale(.50);
+
+           }
+           }
