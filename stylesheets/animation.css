@@ -1,124 +1,338 @@
  @keyframes pulseM {
    from {
-     transform: scale(.50);
+     transform: scale(1)
+   }
+   25% {
+     transform: scale(0.5);
    }
    50% {
      transform: scale(1.5);
    }
+   75% {
+     transform: scale(.5);
+   }
    to {
-     transform: scale(.50);
-     animation-direction: reverse;
+     transform: scale(1);
   }
 
   }
   @keyframes pulseY {
     from {
-      transform: scale(.50)
+      transform: scale(1)
+    }
+    25% {
+      transform: scale(0.5);
     }
     50% {
       transform: scale(1.5);
     }
+    75% {
+      transform: scale(.5);
+    }
     to {
-      transform: scale(.50);
+      transform: scale(1);
    }
    }
    @keyframes pulseR {
      from {
-       transform: scale(.50);
+       transform: scale(1)
+     }
+     25% {
+       transform: scale(0.5);
      }
      50% {
        transform: scale(1.5);
      }
+     75% {
+       transform: scale(.5);
+     }
      to {
-       transform: scale(.50);
-
+       transform: scale(1);
     }
     }
     @keyframes pulseA {
       from {
-        transform: scale(.50);
+        transform: scale(1)
+      }
+      25% {
+        transform: scale(0.5);
       }
       50% {
         transform: scale(1.5);
       }
+      75% {
+        transform: scale(.5);
+      }
       to {
-        transform: scale(.50);
-
+        transform: scale(1);
      }
-
-
      }
      @keyframes pulseV {
        from {
-         transform: scale(.50);
+         transform: scale(1)
+       }
+       25% {
+         transform: scale(0.5);
        }
        50% {
          transform: scale(1.5);
        }
+       75% {
+         transform: scale(.5);
+       }
        to {
-         transform: scale(.50);
-
+         transform: scale(1);
       }
-
-
       }
       @keyframes pulseE {
+        from {
+          transform: scale(1)
+        }
+        25% {
+          transform: scale(0.5);
+        }
+        50% {
+          transform: scale(1.5);
+        }
+        75% {
+          transform: scale(.5);
+        }
+        to {
+          transform: scale(1);
+       }
+       }
+       @keyframes pulseII {
          from {
-           transform: scale(.50);
+           transform: scale(1)
+         }
+         25% {
+           transform: scale(0.5);
          }
          50% {
            transform: scale(1.5);
          }
+         75% {
+           transform: scale(.5);
+         }
          to {
-           transform: scale(.50);
-
-       }
-       }
-       @keyframes pulseII {
+           transform: scale(1);
+        }
+        }
+        @keyframes pulseN {
           from {
-            transform: scale(.50);
+            transform: scale(1)
+          }
+          25% {
+            transform: scale(0.5);
           }
           50% {
             transform: scale(1.5);
           }
+          75% {
+            transform: scale(.5);
+          }
           to {
-            transform: scale(.50);
-
-        }
-        }
-        @keyframes pulseN {
+            transform: scale(1);
+         }
+         }
+         @keyframes pulseI {
            from {
-             transform: scale(.50);
+             transform: scale(1)
+           }
+           25% {
+             transform: scale(0.5);
            }
            50% {
              transform: scale(1.5);
            }
+           75% {
+             transform: scale(.5);
+           }
            to {
-             transform: scale(.50);
-
-         }
-         }
-         @keyframes pulseI {
+             transform: scale(1);
+          }
+          }
+          @keyframes pulseK {
             from {
-              transform: scale(.50);
+              transform: scale(1)
+            }
+            25% {
+              transform: scale(0.5);
             }
             50% {
               transform: scale(1.5);
             }
+            75% {
+              transform: scale(.5);
+            }
             to {
-              transform: scale(.50);
-
-          }
-          }
-          @keyframes pulseK {
-             from {
-               transform: scale(.50);
+              transform: scale(1);
+           }
+           }
+           @keyframes rl {
+             0% {
+               transform: rotate(0deg);
              }
              50% {
-               transform: scale(1.5);
+               transform: rotate(-18deg);
              }
-             to {
-               transform: scale(.50);
+            100% {
+               transform: rotate(0deg);
+           }
+           }
+           @keyframes lr {
+             0% {
+               transform: rotate(0deg);
+             }
+             50% {
+               transform: rotate(18deg);
+             }
+            100% {
+               transform: rotate(0deg);
+           }
+           }
+           @keyframes bl1 {
+              from {
+                transform: scale(1);
+              }
+              50% {
+                transform: scale(1.2);
+              }
+              to {
+                transform: scale(1);
+            }
+            }
+            @keyframes pi1 {
+               from {
+                 transform: scale(1) rotate(0deg);
+               }
+               25% {
+                 transform: scale(.70);
+               }
+               50% {
+                 transform: scale(1.5) rotate(360deg);
+               }
+               75% {
+                 transform: scale(.70);
+               }
+               to {
+                 transform: scale(1) rotate(360deg);
+             }
+             }
+             @keyframes pi2 {
+                from {
+                  transform: scale(1) rotate(0deg);
+                }
+                50% {
+                  transform: scale(.50) rotate(-120deg);
+                }
+                to {
+                  transform: scale(1) rotate(0deg);
+              }
+              }
+              @keyframes bl2 {
+                from {
+                  transform: scale(1) rotate(0deg);
+                }
+                25% {
+                  transform: rotate(.80) rotate(-69deg);
+                }
+                50% {
+                  transform: scale(.50) rotate(-120deg);
+                }
+                to {
+                  transform: scale(1) rotate(0deg);
+               }
+               }
+               @keyframes pe1 {
+                  from {
+                    transform: scale(1);
+                  }
+                  50% {
+                    transform: scale(1.2);
+                  }
+                  to {
+                    transform: scale(1);
+                }
+                }
+                @keyframes pi3 {
+                   from {
+                     transform: scale(1) rotate(0deg);
+                   }
+                   25% {
+                     transform: scale(.5) rotate(140deg);
+                   }
 
-           }
-           }
+                   50% {
+                     transform: scale(.7);
+                   }
+                   to {
+                     transform: scale(1) rotate(360deg);
+                 }
+                 }
+            @keyframes ants1 {
+              from {
+                transform: rotate(0deg);
+              }
+              50% {
+                transform: rotate(15deg);
+              }
+              to {
+                transform: rotate(0deg);
+              }
+              }
+
+              @keyframes ants2 {
+                from {
+                  transform: rotate(-35deg);
+                }
+                25% {
+                  transform: rotate(-50deg);
+                }
+                50% {
+                  transform: rotate(-30deg);
+                }
+                to {
+                  transform: rotate(-35deg);
+                }
+                }
+                @keyframes antss2 {
+                  from {
+                    transform: scale(-1,1) rotate(-40deg);
+                  }
+                  25% {
+                    transform:  scale(-1,1) rotate(-55deg);
+                  }
+                  50% {
+                    transform: scale(-1,1) rotate(-35deg);
+                  }
+                  to {
+                    transform: scale(-1,1) rotate(-40deg);
+                  }
+                  }
+                  @keyframes antss3 {
+                    0% {left: 27.5%;}
+                    50% {left: 26%;}
+                    100% {left: 27.5%;}
+                    }
+                 @keyframes antss4 {
+                    0% {left: 16.3%;}
+                    50% {left: 19%;}
+                    100% {left: 16.3%;}
+                    }
+                @keyframes antss5 {
+                    0% {top: 67.7%; left: 65%;}
+                    50% {top: 69%; left: 64%;}
+                    100% {top: 67.7%; left: 65%}
+                    }
+                @keyframes antss6 {
+                  from {
+                    transform: rotate(-40deg);
+                  }
+                  50% {
+                    transform: rotate(-70deg);
+                  }
+                  to {
+                    transform: rotate(-40deg);
+                  }
+                  }
