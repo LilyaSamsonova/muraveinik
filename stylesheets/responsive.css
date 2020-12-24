@@ -48,7 +48,7 @@
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
   /* iPhone X */
 .m {
-  left: 2.44%;
+  left: 0.44%;
   top: 0.63%;
 }
 @keyframes pulseM {
@@ -70,7 +70,7 @@
 }
 .y {
   left: 8.44%;
-top: 5.63%;
+  top: 4.63%;
 }
 @keyframes pulseY {
   from {
@@ -111,8 +111,8 @@ top: 1.63%;
  }
 }
 .a {
-  left: 17.85%;
-    top: 4.78%;
+  left: 19.85%;
+  top: 6.78%;
 }
 @keyframes pulseA {
   from {
@@ -131,8 +131,132 @@ top: 1.63%;
     transform: scale(0.5);
  }
 }
-
-
+.v {
+  left: 1.85%;
+  top: 9.78%;
+}
+@keyframes pulseV {
+  from {
+    transform: scale(0.5)
+  }
+  25% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(0.5);
+ }
+}
+.e {
+  left: 11.88%;
+    top: 12.04%;
+}
+@keyframes pulseE {
+  from {
+    transform: scale(0.5)
+  }
+  25% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(0.5);
+ }
+}
+.i {
+  left: 18.88%;
+top: 14.04%;
+}
+@keyframes pulseII {
+  from {
+    transform: scale(0.5)
+  }
+  25% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(0.5);
+ }
+}
+.n {
+  left: 3.46%;
+    top: 14.83%;
+}
+@keyframes pulseN {
+  from {
+    transform: scale(0.5)
+  }
+  25% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(0.5);
+ }
+}
+.ii {
+  left: 7.21%;
+  top: 19.51%;
+}
+@keyframes pulseI {
+  from {
+    transform: scale(0.5)
+  }
+  25% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(0.5);
+ }
+}
+.k {
+  left: 17.21%;
+top: 21.51%;
+}
+@keyframes pulseK {
+  from {
+    transform: scale(0.5)
+  }
+  25% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(0.5);
+ }
+}
    .head1 {display: none;}
 
 }
