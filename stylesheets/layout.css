@@ -119,6 +119,12 @@ top: 15%;
 position: absolute;
 display: inline-block;
 }
+.head2 {
+left: 2%;
+top: 25%;
+position: absolute;
+display: inline-block;
+}
  /* .info h1{
    position: absolute;
 left: 38.4%;
@@ -175,13 +181,13 @@ color: #FFFFFF;
 } */
 .btn19 {
  left: 10.3%;
- top: 63vw;
+ top: 25.9%;
  position: absolute;
 display: inline-block;
 }
  .btn19b {
   left: 8%;
-  top: 60.6vw;
+  top: 25%;
   position: absolute;
   display: inline-block;
   animation: lr 3s linear infinite;
@@ -214,7 +220,7 @@ display: inline-block;
 
 
 
-.btn22_main{
+/* .btn22_main{
   left: 5.3%;
   top: 33.4%;
   position: absolute;
@@ -222,9 +228,9 @@ display: inline-block;
   height: 200px;
 }
 .btn22 {
-  /* left: 5.3%;
+  left: 5.3%;
   top: 33.4%;
-  position: absolute; */
+  position: absolute;
   width: 137px;
   height: 137px;
   display: inline-block;
@@ -237,7 +243,7 @@ display: inline-block;
       animation: lr 3s linear infinite;
       background: url("../images/22_1.svg") no-repeat;
 
-}
+} */
 
 /* .btn22:hover .zagolovok_1 {
   opacity: 1;
@@ -247,26 +253,26 @@ display: inline-block;
 
 .btn25 {
   left: 14.5%;
-  top: 98vw;
+  top: 40.4%;
   position: absolute;
   display: inline-block;
 }
 .btn25b {
   left: 12%;
-  top: 97vw;
+  top: 40%;
   position: absolute;
   display: inline-block;
   animation: lr 3s linear infinite;
 }
 .btn31 {
   left: 78.8%;
-  top: 63vw;
+  top: 25.9%;
   position: absolute;
   display: inline-block;
 }
 .btn31b {
   left: 78%;
-  top: 60.6vw;
+  top: 25%;
   position: absolute;
   display: inline-block;
   animation: rl 3s linear infinite;
@@ -285,14 +291,14 @@ display: inline-block;
   animation: rl 3s linear infinite;
 }
 .btn27 {
-  left: 79vw;
-  top: 98vw;
+  left: 78.9%;
+  top: 40.4%;
   position: absolute;
   display: inline-block;
 }
 .btn27b {
-  left: 78vw;
-  top: 97vw;
+  left: 78%;
+  top: 40%;
   position: absolute;
   display: inline-block;
   animation: rl 3s infinite ease-in-out;
