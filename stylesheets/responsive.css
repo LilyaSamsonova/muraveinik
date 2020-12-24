@@ -1,39 +1,38 @@
 
-
-}
 @media only screen and (min-width: 1680px) and (max-width: 1920px) {
   /* MacBook Pro 2020 15"*/
 
-
+.head2 {display: none;}
+.mini {display: none;}
  }
-  }
 
-  .head2 {display: none;}
-}
 
 @media only screen and (min-width: 1400px) and (max-width: 1680px) {
   /* MacBook Pro 2020*/
-
+.head2 {display: none;}
+.mini {display: none;}
  }
 
-  .head2 {display: none;}
-}
+  /* .head2 {display: none;} */
+
 
 
 @media only screen and (min-width: 1024px) and (max-width: 1400px) {
   /* Macbook Air 11.6" */
-
+.head2 {display: none;}
+.mini {display: none;}
  }
 
-  .head2 {display: none;}
-}
+
+
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* iPad Portrait */
 
-    .head1 {display: none;}
+  .head1 {display: none;}
   .head2 {display: none;}
+  .mini {display: none;}
 
 }
 
@@ -52,213 +51,161 @@
   top: 0.63%;
 }
 @keyframes pulseM {
-  from {
-    transform: scale(0.5)
-  }
-  25% {
-    transform: scale(0.2);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  75% {
-    transform: scale(0.2);
-  }
-  to {
-    transform: scale(0.5);
- }
+  from {transform: scale(0.5)}
+  25% {transform: scale(0.2);}
+  50% {transform: scale(0.8);}
+  75% {transform: scale(0.2);}
+  to {transform: scale(0.5);}
 }
 .y {
   left: 8.44%;
   top: 4.63%;
 }
 @keyframes pulseY {
-  from {
-    transform: scale(0.5)
-  }
-  25% {
-    transform: scale(0.2);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  75% {
-    transform: scale(0.2);
-  }
-  to {
-    transform: scale(0.5);
- }
+  from {transform: scale(0.5)}
+  25% {transform: scale(0.2);}
+  50% {transform: scale(0.8);}
+  75% {transform: scale(0.2);}
+  to {transform: scale(0.5);}
 }
 .r {
   left: 15.44%;
 top: 1.63%;
 }
 @keyframes pulseR {
-  from {
-    transform: scale(0.5)
-  }
-  25% {
-    transform: scale(0.2);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  75% {
-    transform: scale(0.2);
-  }
-  to {
-    transform: scale(0.5);
- }
+  from {transform: scale(0.5)}
+  25% {transform: scale(0.2);}
+  50% {transform: scale(0.8);}
+  75% {transform: scale(0.2);}
+  to {transform: scale(0.5);}
 }
 .a {
-  left: 19.85%;
+  left: 17.85%;
   top: 6.78%;
 }
 @keyframes pulseA {
-  from {
-    transform: scale(0.5)
-  }
-  25% {
-    transform: scale(0.2);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  75% {
-    transform: scale(0.2);
-  }
-  to {
-    transform: scale(0.5);
- }
+  from {transform: scale(0.5)}
+  25% {transform: scale(0.2);}
+  50% {transform: scale(0.8);}
+  75% {transform: scale(0.2);}
+  to {transform: scale(0.5);}
 }
 .v {
   left: 1.85%;
   top: 9.78%;
 }
 @keyframes pulseV {
-  from {
-    transform: scale(0.5)
-  }
-  25% {
-    transform: scale(0.2);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  75% {
-    transform: scale(0.2);
-  }
-  to {
-    transform: scale(0.5);
- }
+  from {transform: scale(0.5)}
+  25% {transform: scale(0.2);}
+  50% {transform: scale(0.8);}
+  75% {transform: scale(0.2);}
+  to {transform: scale(0.5);}
 }
 .e {
   left: 11.88%;
-    top: 12.04%;
+    top: 10.04%;
 }
 @keyframes pulseE {
-  from {
-    transform: scale(0.5)
-  }
-  25% {
-    transform: scale(0.2);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  75% {
-    transform: scale(0.2);
-  }
-  to {
-    transform: scale(0.5);
- }
+  from {transform: scale(0.5)}
+  25% {transform: scale(0.2);}
+  50% {transform: scale(0.8);}
+  75% {transform: scale(0.2);}
+  to {transform: scale(0.5);}
 }
 .i {
-  left: 18.88%;
-top: 14.04%;
+  left: 15.88%;
+  top: 13.04%;
 }
 @keyframes pulseII {
-  from {
-    transform: scale(0.5)
-  }
-  25% {
-    transform: scale(0.2);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  75% {
-    transform: scale(0.2);
-  }
-  to {
-    transform: scale(0.5);
- }
+  from {transform: scale(0.5)}
+  25% {transform: scale(0.2);}
+  50% {transform: scale(0.8);}
+  75% {transform: scale(0.2);}
+  to {transform: scale(0.5);}
 }
 .n {
-  left: 3.46%;
+  left: 0.46%;
     top: 14.83%;
 }
 @keyframes pulseN {
-  from {
-    transform: scale(0.5)
-  }
-  25% {
-    transform: scale(0.2);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  75% {
-    transform: scale(0.2);
-  }
-  to {
-    transform: scale(0.5);
- }
+  from {transform: scale(0.5)}
+  25% {transform: scale(0.2);}
+  50% {transform: scale(0.8);}
+  75% {transform: scale(0.2);}
+  to {transform: scale(0.5);}
 }
 .ii {
-  left: 7.21%;
-  top: 19.51%;
+  left: 5.21%;
+    top: 18.51%;
 }
 @keyframes pulseI {
-  from {
-    transform: scale(0.5)
-  }
-  25% {
-    transform: scale(0.2);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  75% {
-    transform: scale(0.2);
-  }
-  to {
-    transform: scale(0.5);
- }
+  from {transform: scale(0.5)}
+  25% {transform: scale(0.2);}
+  50% {transform: scale(0.8);}
+  75% {transform: scale(0.2);}
+  to {transform: scale(0.5);}
 }
 .k {
-  left: 17.21%;
-top: 21.51%;
+  left: 15.21%;
+top: 17.51%;
 }
 @keyframes pulseK {
-  from {
-    transform: scale(0.5)
-  }
-  25% {
-    transform: scale(0.2);
-  }
-  50% {
-    transform: scale(0.8);
-  }
-  75% {
-    transform: scale(0.2);
-  }
-  to {
-    transform: scale(0.5);
- }
+  from {transform: scale(0.5)}
+  25% {transform: scale(0.2);}
+  50% {transform: scale(0.8);}
+  75% {transform: scale(0.2);}
+  to {transform: scale(0.5);}
 }
-   .head1 {display: none;}
+.head2 {
+left: 0%;
+top: 22%;
+}
+.m19 {
+  top: 24%;
+  left: 13%;
+  position: absolute;
+  display: inline-block;
+  transform: scale(1.2);
+}
+.m22 {
+  top: 26%;
+  left: 16%;
+  position: absolute;
+  display: inline-block;
+transform: scale(1.2);
+}
+.m25 {
+  top: 28.4%;
+  left: 15.6%;
+  position: absolute;
+  display: inline-block;
+transform: scale(1.2);
+}
+.m27 {
+  top: 31%;
+  left: 13%;
+  position: absolute;
+  display: inline-block;
+transform: scale(1.2);
+}
+.m28 {
+  top: 32%;
+  left: 7%;
+  position: absolute;
+  display: inline-block;
+transform: scale(1.2);
+}
+.m31 {
+  top: 32.4%;
+  left: 1%;
+  position: absolute;
+  display: inline-block;
+transform: scale(1.2);
+}
 
+.b19, .b22, .b25, .b27, .b28, .b31 {display: none;}
+.head1 {display: none;}
+.head {display: none;}
 }
 
 
