@@ -26,7 +26,6 @@
  }
 
   .head2 {display: none;}
-  .b19 {left: 20%;}
 }
 
 
@@ -34,7 +33,7 @@
   /* iPad Portrait */
 
     .head1 {display: none;}
-
+  .head2 {display: none;}
 
 }
 
@@ -48,10 +47,96 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
   /* iPhone X */
+.m {
+  left: 2.44%;
+  top: 0.63%;
+}
+@keyframes pulseM {
+  from {
+    transform: scale(0.5)
+  }
+  25% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(0.5);
+ }
+}
+.y {
+  left: 8.44%;
+top: 5.63%;
+}
+@keyframes pulseY {
+  from {
+    transform: scale(0.5)
+  }
+  25% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(0.5);
+ }
+}
+.r {
+  left: 15.44%;
+top: 1.63%;
+}
+@keyframes pulseR {
+  from {
+    transform: scale(0.5)
+  }
+  25% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(0.5);
+ }
+}
+.a {
+  left: 17.85%;
+    top: 4.78%;
+}
+@keyframes pulseA {
+  from {
+    transform: scale(0.5)
+  }
+  25% {
+    transform: scale(0.2);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: scale(0.2);
+  }
+  to {
+    transform: scale(0.5);
+ }
+}
+
 
    .head1 {display: none;}
 
- }
+}
+
 
 
 
