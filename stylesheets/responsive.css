@@ -4,6 +4,8 @@
 
 .head2 {display: none;}
 .mini {display: none;}
+.lines_iphone {display: none;}
+
  }
 
 
@@ -11,6 +13,7 @@
   /* MacBook Pro 2020*/
 .head2 {display: none;}
 .mini {display: none;}
+.lines_iphone {display: none;}
  }
 
   /* .head2 {display: none;} */
@@ -21,6 +24,7 @@
   /* Macbook Air 11.6" */
 .head2 {display: none;}
 .mini {display: none;}
+.lines_iphone {display: none;}
  }
 
 
@@ -33,6 +37,7 @@
   .head1 {display: none;}
   .head2 {display: none;}
   .mini {display: none;}
+  .lines_iphone {display: none;}
 
 }
 
@@ -40,15 +45,17 @@
   /* промежуток */
 
    .head1 {display: none;}
-
+.lines_iphone {display: none;}
  }
 
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
   /* iPhone X */
+  
 .m {
   left: 0.44%;
   top: 0.63%;
+  transform: scale(0.5);
 }
 @keyframes pulseM {
   from {transform: scale(0.5)}
@@ -60,6 +67,7 @@
 .y {
   left: 8.44%;
   top: 4.63%;
+  transform: scale(0.5);
 }
 @keyframes pulseY {
   from {transform: scale(0.5)}
@@ -71,6 +79,7 @@
 .r {
   left: 15.44%;
 top: 1.63%;
+transform: scale(0.5);
 }
 @keyframes pulseR {
   from {transform: scale(0.5)}
@@ -82,6 +91,7 @@ top: 1.63%;
 .a {
   left: 17.85%;
   top: 6.78%;
+  transform: scale(0.5);
 }
 @keyframes pulseA {
   from {transform: scale(0.5)}
@@ -93,6 +103,7 @@ top: 1.63%;
 .v {
   left: 1.85%;
   top: 9.78%;
+  transform: scale(0.5);
 }
 @keyframes pulseV {
   from {transform: scale(0.5)}
@@ -104,6 +115,7 @@ top: 1.63%;
 .e {
   left: 11.88%;
     top: 10.04%;
+    transform: scale(0.5);
 }
 @keyframes pulseE {
   from {transform: scale(0.5)}
@@ -115,6 +127,7 @@ top: 1.63%;
 .i {
   left: 15.88%;
   top: 13.04%;
+  transform: scale(0.5);
 }
 @keyframes pulseII {
   from {transform: scale(0.5)}
@@ -126,6 +139,7 @@ top: 1.63%;
 .n {
   left: 0.46%;
     top: 14.83%;
+    transform: scale(0.5);
 }
 @keyframes pulseN {
   from {transform: scale(0.5)}
@@ -137,6 +151,7 @@ top: 1.63%;
 .ii {
   left: 5.21%;
     top: 18.51%;
+    transform: scale(0.5);
 }
 @keyframes pulseI {
   from {transform: scale(0.5)}
@@ -148,6 +163,7 @@ top: 1.63%;
 .k {
   left: 15.21%;
 top: 17.51%;
+transform: scale(0.5);
 }
 @keyframes pulseK {
   from {transform: scale(0.5)}
@@ -159,10 +175,11 @@ top: 17.51%;
 .head2 {
 left: 0%;
 top: 22%;
+transform: scale(1.1);
 }
 .m19 {
-  top: 24%;
-  left: 13%;
+  top: 23.6%;
+  left: 14%;
   position: absolute;
   display: inline-block;
   transform: scale(1.2);
@@ -196,16 +213,195 @@ transform: scale(1.2);
 transform: scale(1.2);
 }
 .m31 {
-  top: 32.4%;
-  left: 1%;
+  top: 32.7%;
+    left: 1%;
   position: absolute;
   display: inline-block;
 transform: scale(1.2);
 }
+.lines_iphone {
+  top: 20%;
+  left: -39%;
+  position: absolute;
+  display: inline-block;
+  transform: scale(.6);
+}
+.round1 {
+left: 10%;
+top: 46.7%;
+transform: scale(.5);
+}
+@keyframes bl1 {
+  from {transform: scale(.5);}
+  50% {transform: scale(.8);}
+  to {transform: scale(.5);}
+ }
+ .round2 {
+ left: 2%;
+ top: 40%;
+ transform: scale(.5);
+ }
+ @keyframes pi1 {
+    from {transform: scale(.5) rotate(0deg);}
+    25% {transform: scale(.70);}
+    50% {transform: scale(1.5) rotate(360deg);}
+    75% {transform: scale(.70);}
+    to {transform: scale(.5) rotate(360deg);}
+  }
+     .round6 {
+       left: 10%;
+       top: 54%;
+       transform: scale(.2);
+     }
+@keyframes pi3 {
+   from {transform: scale(.2) rotate(140deg);}
+   25% {transform: scale(.4) rotate(360deg);}
+   50% {transform: scale(.45);}
+   to {transform: scale(.2) rotate(0deg);}
+ }
+.ant1 {
+  left: 11%;
+  top: 39.6%;
+  transform: scale(.5) rotate(-15deg);}
+  @keyframes ants1 {
+    from {
+      transform: rotate(-15deg) scale(.5);
+    }
+    50% {
+      transform: rotate(0deg) scale(.5);
+    }
+    to {
+      transform: rotate(-15deg) scale(.5);
+    }
+    }
+.ant2 {
+   left: 9%;
+    top: 39.8%;
+  transform: scale(.5) rotate(-15deg);}
+.ant3 {
+  left: 13%;
+top: 39.6%;
+transform: scale(.5) rotate(-15deg);
+}
+.ant4 {
+  left: 4%;
+  top: 52.2%;
+  transform: scale(.5) rotate(-35deg);
+  }
+  @keyframes ants2 {
+    from {
+      transform: rotate(-35deg) scale(.5);
+    }
+    25% {
+      transform: rotate(-50deg) scale(.5);
+    }
+    50% {
+      transform: rotate(-30deg) scale(.5);
+    }
+    to {
+      transform: rotate(-35deg) scale(.5);
+    }
+    }
+.ant5 {
+left: -1%;
+    top: 42.88%;
+transform: scale(.5) rotate(-40deg);
+}
+@keyframes antss2 {
+  from {
+    transform: scale(-.5,.5) rotate(-40deg);
+  }
+  25% {
+    transform:  scale(-.5,.5) rotate(-55deg);
+  }
+  50% {
+    transform: scale(-.5,.5) rotate(-35deg);
+  }
+  to {
+    transform: scale(-.5,.5) rotate(-40deg);
+  }
+  }
+  .ant7 {
+    left: 18%;
+  top: 42.3%;
+    transform: scale(.5);
+  }
+  @keyframes antss3 {
+    0% {left: 18%;
+    transform: scale(.5)}
+    50% {left: 17.5%;
+    transform: scale(.5)}
+    100% {left: 18%;
+    transform: scale(.5)}
+    }
+    .rect {
+    top: 77%;}
+    .anim1 {
+        width: 230px;
+        height: 230px;
+        display: block;
+        position: absolute;
+        left: 5%;
+        top: 71.4%;
+        transform: scale(.5);
+        background: url("images/anim1.svg");
+ animation: dance1 .6s steps(1) alternate infinite;
+ }
+      @keyframes dance1 {
+        0% {background-position: 0 top;}
+        25% {background-position: -230px top;}
+        50% {background-position: -460px top;}
+        75% {background-position: -690px top;}
+      }
 
+    .anim2 {
+        width: 230px;
+        height: 230px;
+        display: block;
+        position: absolute;
+        left: 10%;
+        top: 71.4%;
+        transform: scale(.5);
+        background: url("images/anim2.svg");
+      animation: dance1 .6s steps(1) alternate infinite;
+      }
+      .anim3 {
+          width: 230px;
+          height: 230px;
+          display: block;
+          position: absolute;
+          left: 15%;
+          top: 71.4%;
+          transform: scale(.5);
+          background: url("images/anim3.svg");
+        animation: dance1 .6s steps(1) alternate infinite;
+        }
+        .anim4 {
+            width: 230px;
+            height: 230px;
+            display: block;
+            position: absolute;
+            left: 20%;
+            top: 71.4%;
+            transform: scale(.5);
+            background: url("images/anim4.svg");
+          animation: dance1 .6s steps(1) alternate infinite;
+          }
+
+
+
+.anim5, .anim6, .anim7, .anim8 {display: none;}
+.logo {display: none;}
+.ant6, .ant8, .ant9, .ant10 {display: none;}
+.round3, .round4, .round5 {display: none;}
+.lines15{display: none;}
 .b19, .b22, .b25, .b27, .b28, .b31 {display: none;}
 .head1 {display: none;}
 .head {display: none;}
+
+
+
+
 }
 
 
@@ -213,7 +409,8 @@ transform: scale(1.2);
 
 @media only screen  and (max-device-width: 375px)  {
   /* iPhone SE */
-
+.lines15{display: none;}
  .head1 {display: none;}
-
+ .head {display: none;}
+.b19, .b22, .b25, .b27, .b28, .b31 {display: none;}
 }
