@@ -25,10 +25,8 @@ body {
     height: 100%;
     display: block;
     opacity: 0.5; */
-.letters {
-width: 1440px;
-height: 760px;
-}
+
+
 .m  {
 left: 9.44%;
 top: 2.63%;
@@ -148,25 +146,17 @@ color: #FFFFFF;
 }
 .info {} */
 
- .btn19 {
-  ;
+
+/* .btn19p {
+
   left: 10.3%;
-  top: 25.9%;
+  top: 50vw;
    width: 140px;
    height: 137px;
   position: absolute;
+  opacity: 0%; */
 
-}
-.btn19p {
-  ;
-  left: 10.3%;
-  top: 25.9%;
-   width: 140px;
-   height: 137px;
-  position: absolute;
-  opacity: 0%;
 
-}
 /* .btn19:hover ~ .btn19p{ ;
   left: 10.3%;
   top: 25.9%;
@@ -183,9 +173,15 @@ color: #FFFFFF;
   position: absolute;
   opacity: 0%;
 } */
+.btn19 {
+ left: 10.3%;
+ top: 63vw;
+ position: absolute;
+display: inline-block;
+}
  .btn19b {
   left: 8%;
-  top: 25%;
+  top: 60.6vw;
   position: absolute;
   display: inline-block;
   animation: lr 3s linear infinite;
@@ -251,26 +247,26 @@ color: #FFFFFF;
 
 .btn25 {
   left: 14.5%;
-  top: 40.4%;
+  top: 98vw;
   position: absolute;
   display: inline-block;
 }
 .btn25b {
   left: 12%;
-  top: 40%;
+  top: 97vw;
   position: absolute;
   display: inline-block;
   animation: lr 3s linear infinite;
 }
 .btn31 {
   left: 78.8%;
-  top: 25.9%;
+  top: 63vw;
   position: absolute;
   display: inline-block;
 }
 .btn31b {
   left: 78%;
-  top: 25%;
+  top: 60.6vw;
   position: absolute;
   display: inline-block;
   animation: rl 3s linear infinite;
@@ -289,14 +285,14 @@ color: #FFFFFF;
   animation: rl 3s linear infinite;
 }
 .btn27 {
-  left: 78.9%;
-  top: 40.4%;
+  left: 79vw;
+  top: 98vw;
   position: absolute;
   display: inline-block;
 }
 .btn27b {
-  left: 78%;
-  top: 40%;
+  left: 78vw;
+  top: 97vw;
   position: absolute;
   display: inline-block;
   animation: rl 3s infinite ease-in-out;
@@ -308,7 +304,7 @@ top: 37%;
 font-family: Roboto;
 font-style: normal;
 font-weight: 500;
-font-size: 48px;
+font-size: 3.4vw;
 position: absolute;
 color: #fff;
 }
