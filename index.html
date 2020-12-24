@@ -3,16 +3,25 @@
   <head>
     <link rel="stylesheet" href="stylesheets/style.css">
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>МУРАВЕЙНИК</title>
     <style media="screen">
-
+    function setheight(){
+      var clientHeight = document.body.clientHeight;
+      $('.hei').height(clientHeight);
+    }
+    $(document).ready(function() {
+       function setheight();
+    });
+    $(window).resize(function(){
+       function setheight();
+    })
     html {
       padding: 0;
       margin: 0;
     }
     body {
-        width: 1440px;
+        /* width: 1440px; */
         margin: 0 auto;
         background: #000;
         height: 3493px;
@@ -165,10 +174,37 @@
     <div class="ii"><img src="images/и.svg" alt=""></div>
     <div class="k"><img src="images/к.svg" alt=""></div>
 </div>
-<div class="info">
+<div class="headmain">
   <div class="head"><img src="images/head.svg" alt=""></div>
-  <div class="btn19"><img src="images/19.svg" alt=""></div>
-  <div class="btn22"><img src="images/22.svg" alt=""></div>
+  <div class="head1"><img src="images/head1.svg" alt=""></div>
+
+</div>
+
+ <div class="infoo">
+<h1>ВЕЧЕРИНКИ</h1>
+<p>декабрь</p>
+ </div>
+
+ <div class="b19">
+   <div class="btn19"><img src="images/19.svg" alt=""> </div>
+   <div class="btn19b"><img src="images/19_1.svg" alt=""></div>
+</div>
+
+
+
+  <!-- <div class="btn22_main">
+          <div class="btn22">
+              <h1 class="zagolovok_1">ГРУППА ТЛЯ</h1>
+          </div>
+          <div class="btn22b"></div>
+      </div> -->
+
+  <!-- <div class="info">
+    <h2>23:00</h2>
+    <p>ГРУППА ТЛЯ</p>
+  </div> -->
+
+<div class="btn22"><img src="images/22.svg" alt=""></div>
   <div class="btn25"><img src="images/25.svg" alt=""></div>
   <div class="btn31"><img src="images/31.svg" alt=""></div>
   <div class="btn28"><img src="images/28.svg" alt=""></div>
@@ -181,11 +217,15 @@
   <div class="btn19b"><img src="images/19_1.svg" alt=""></div>
 
   <div class="info">
-  <h1>ВЕЧЕРИНКИ</h1>
-  <p>декабрь</p>
-  </div>
+
+   <h1 class="zagolovok_1">ВЕЧЕРИНКИ</h1>
+   <h1 class="zagolovok_2">ГРУППА ТЛЯ</h1>
+   <p>декабрь</p>
+   </div>
+
   <div class="lines">
     <div class="lines15"><img src="images/линии15.svg" alt=""></div>
+    <div class="lines1pad"><img src="images/lines1pad.svg" alt=""></div>
     <div class="round1"><img src="images/bl1.svg" alt=""></div>
     <div class="round2"><img src="images/pi1.svg" alt=""></div>
     <div class="round3"><img src="images/pi2.svg" alt=""></div>
@@ -205,7 +245,9 @@
   </div>
  </div>
 <div class="info2">
-  <h1>ТАНЦУЙ С НАМИ</h1> <p>наведи и повтори</p>
+    <h1>ТАНЦУЙ С НАМИ</h1> <p>наведи и повтори</p>
+  </div>
+
 </div>
 <div class="anim1"></div>
 <div class="anim2"></div>
