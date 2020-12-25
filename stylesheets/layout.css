@@ -1,14 +1,14 @@
-html {
+/* html {
   padding: 0;
   margin: 0;
   background: black;
   position: relative;
   height: 100%;
-}
+} */
 body {
-    width: 1440px;
-    margin: 0 auto;
-    padding: 0;
+      width: 100%;
+      margin: 0 auto;
+
     background: #000;
     height: 3493px;
     /* font-family: 'Roboto', sans-serif; */
@@ -125,211 +125,357 @@ top: 25%;
 position: absolute;
 display: inline-block;
 }
- /* .info h1{
-   position: absolute;
-left: 38.4%;
-top: 34.61%;
-font-family: Roboto;
+.info {
+    left: 42.5%;
+    top: 37%;
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 64px;
+    line-height: 42px;
+    transition: all 1s;
+}
+/* .info h1{
+    left: 42.5%;
+    top: 37%;
+    position: absolute;
+    display: inline-block;
+    color: #fff;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 42px;
+    transition: all 1s;
+} */
+.b19 {
+  left: 8.3%;
+    top: 24.9%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  display: inline-block;
+}
+.b19:hover ~ .text1 {
+  opacity: 100%;
+
+}
+.b19:hover ~ .info {
+  opacity: 0%;}
+.text1 {
+  left: 41.3%;
+    top: 36.9%;
+  position: absolute;
+ display: inline-block;
+ color: #fff;
+ font-family: Roboto;
 font-style: normal;
 font-weight: 500;
-font-size: 60px;
-display: none;
-text-align: center;
-color: #FFFFFF;
- }
-.btn_1,
-.btn_2,
-.btn_3,
-.btn_4,
-.btn_5,
-.btn_6 {
-  position: absolute;
+font-size: 40px;
+line-height: 47px;
+opacity: 0%;
+transition: all 1s;
 }
-.btn {
+.text1 p{
+  left: 15.3%;
+  top: 158.9%;
   position: absolute;
-  display: block;
-
+ display: inline-block;
+ color: #fff;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 47px;
 }
-.info {} */
-
-
-/* .btn19p {
-
-  left: 10.3%;
-  top: 50vw;
-   width: 140px;
-   height: 137px;
-  position: absolute;
-  opacity: 0%; */
-
-
-/* .btn19:hover ~ .btn19p{ ;
-  left: 10.3%;
-  top: 25.9%;
-  width: 140px;
-  height: 137px;
-  position: absolute;
-  opacity: 100%;
-} */
-/* .btn19:hover .btn19{ ;
-  left: 10.3%;
-  top: 25.9%;
-  width: 140px;
-  height: 137px;
-  position: absolute;
-  opacity: 0%;
-} */
 .btn19 {
- left: 10.3%;
- top: 25.9%;
+  left: 20.3%;
+ top: 37.9%;
  position: absolute;
 display: inline-block;
 }
  .btn19b {
-  left: 8%;
-  top: 25%;
+   left: -14%;
+     top: 5%;
   position: absolute;
   display: inline-block;
   animation: lr 3s linear infinite;
+}
+.b22 {
+  left: 5.3%;
+    top: 32.9%;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  display: inline-block;
 }
  .btn22 {
-  left: 5.3%;
-  top: 33.4%;
+   left: 3.3%;
+   top: 21.4%;
   position: absolute;
   display: inline-block;
 }
 .btn22b {
-  left: 3%;
-  top: 33%;
+  left: -34%;
+    top: 6%;
   position: absolute;
   display: inline-block;
   animation: lr 3s linear infinite;
 }
-/* .zagolovok_1{
-    display: block;
-    font-size: 2em;
-    font-weight: bold;
-    padding-top: 3vw; */
-    /* padding-left: .5vw; */
-    /* padding-left: 20.5vw;
-    color: white;
-    width: 20vw;
-    height: 30vw;
-      opacity: 0;
-  } */
-
-
-
-/* .btn22_main{
-  left: 5.3%;
-  top: 33.4%;
+.text2 {
+  left: 36.3%;
+      top: 36.9%;
   position: absolute;
-  width: 200px;
-  height: 200px;
+ display: inline-block;
+ color: #fff;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+opacity: 0%;
+transition: all 1s;
 }
-.btn22 {
-  left: 5.3%;
-  top: 33.4%;
+.text2 p{
+  left: 28%;
+  top: 158.9%;
   position: absolute;
-  width: 137px;
-  height: 137px;
-  display: inline-block;
-  background-image: url("../images/22.svg");
+ display: inline-block;
+ color: #fff;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 47px;
 }
-.btn22b {
-      width: 200px;
-      height: 200px;
-      display: inline-block;
-      animation: lr 3s linear infinite;
-      background: url("../images/22_1.svg") no-repeat;
 
-} */
-
-/* .btn22:hover .zagolovok_1 {
-  opacity: 1;
-  transition: all 2s;} */
-
-
-
+.b22:hover ~ .text2 {
+  opacity: 100%;
+}
+.b22:hover ~ .info {
+  opacity: 0%;}
+.b25 {
+  left: 17.3%;
+  top: 39.4%;
+  width: 100px;
+  height: 100px;
+ position: absolute;
+ display: inline-block;
+}
 .btn25 {
-  left: 14.5%;
+  left: -24.5%;
   top: 40.4%;
+
   position: absolute;
   display: inline-block;
 }
 .btn25b {
-  left: 12%;
-  top: 40%;
+  left: -61%;
+  top: 25%;
   position: absolute;
   display: inline-block;
   animation: lr 3s linear infinite;
 }
-.btn31 {
+.text3 {
+  left: 40.3%;
+    top: 36.9%;
+  position: absolute;
+ display: inline-block;
+ color: #fff;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+opacity: 0%;
+transition: all 1s;
+}
+.text3 p{
+  left: 22%;
+    top: 158.9%;
+  position: absolute;
+ display: inline-block;
+ color: #fff;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 47px;
+}
+
+.b25:hover ~ .text3 {
+  opacity: 100%;
+}
+.b25:hover ~ .info {
+  opacity: 0%;}
+.b31 {
   left: 78.8%;
-  top: 25.9%;
+  top: 25.3%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  display: inline-block;
+}
+.btn31 {
+  left:  3.8%;
+  top: 12%;
   position: absolute;
   display: inline-block;
 }
 .btn31b {
-  left: 78%;
-  top: 25%;
+  left: -3%;
+  top: -4%;
   position: absolute;
   display: inline-block;
   animation: rl 3s linear infinite;
 }
-.btn28 {
+.text4 {
+  left: 42.3%;
+  top: 36.9%;
+  position: absolute;
+ display: inline-block;
+ color: #fff;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+opacity: 0%;
+transition: all 1s;
+}
+.text4 p{
+  left: 15.3%;
+  top: 158.9%;
+  position: absolute;
+ display: inline-block;
+ color: #fff;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 47px;
+}
+.b31:hover ~ .text4 {
+  opacity: 100%;
+}
+.b31:hover ~ .info {
+  opacity: 0%;}
+
+.b28 {
   left: 83.8%;
   top: 33.4%;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  display: inline-block;
+}
+.btn28 {
+  left: 3.8%;
+    top: 3.4%;
   position: absolute;
   display: inline-block;
 }
 .btn28b {
-  left: 83%;
-  top: 33%;
+  left: 0%;
+  top: -5%;
   position: absolute;
   display: inline-block;
   animation: rl 3s linear infinite;
 }
-.btn27 {
+.text5 {
+  left: 41.3%;
+    top: 36.9%;
+  position: absolute;
+ display: inline-block;
+ color: #fff;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+opacity: 0%;
+transition: all 1s;
+}
+.text5 p{
+  left: 18%;
+    top: 158.9%;
+  position: absolute;
+ display: inline-block;
+ color: #fff;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 47px;
+}
+
+.b28:hover ~ .text5 {
+  opacity: 100%;
+}
+.b28:hover ~ .info {
+  opacity: 0%;}
+.b27 {
   left: 78.9%;
   top: 40.4%;
+  width: 200px;
+  height: 200px;
+ position: absolute;
+ display: inline-block;
+}
+.btn27 {
+  left: -4.1%;
+  top: 2.4%;
   position: absolute;
   display: inline-block;
 }
 .btn27b {
-  left: 78%;
-  top: 40%;
+  left: -8%;
+  top: -6%;
   position: absolute;
   display: inline-block;
   animation: rl 3s infinite ease-in-out;
 }
-
-/* .infoo h1 {
-left: 41%;
-top: 37%;
-font-family: Roboto;
+.text6 {
+  left: 40.3%;
+    top: 36.9%;
+  position: absolute;
+ display: inline-block;
+ color: #fff;
+ font-family: Roboto;
 font-style: normal;
 font-weight: 500;
-font-size: 3.4vw;
-position: absolute;
-color: #fff;
+font-size: 40px;
+line-height: 47px;
+opacity: 0%;
+transition: all 1s;
 }
-.infoo p {
-left: 46.4%;
-top: 39.5%;
-font-family: Roboto;
+.text6 p{
+  left: 22%;
+    top: 158.9%;
+  position: absolute;
+ display: inline-block;
+ color: #fff;
+ font-family: Roboto;
 font-style: normal;
-font-weight: 200;
-font-size: 36px;
-line-height: 56px;
-position: absolute;
-text-transform: lowercase;
-color: #FFFFFF;
-} */
+font-weight: 500;
+font-size: 64px;
+line-height: 47px;
+}
+
+.btn27:hover ~ .text6 {
+  opacity: 100%;
+}
+.b27:hover ~ .info {
+  opacity: 0%;}
 .lines15 {
   left: 0%;
   top: 40%;
+  width: 100vw;
   position: absolute;
+  display: inline-block;
 }
 .lines1pad {
   left: 0%;
@@ -477,6 +623,7 @@ color: #FFFFFF;
 }
 .rect {
 position: absolute;
+display: inline-block;
 width: 100vw;
 height: 141px;
 left: 0px;
