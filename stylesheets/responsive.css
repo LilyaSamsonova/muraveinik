@@ -1,4 +1,6 @@
 
+
+
 @media only screen and (min-width: 1680px) and (max-width: 1920px) {
   /* MacBook Pro 2020 15"*/
 
@@ -51,7 +53,7 @@
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 480px) {
   /* iPhone X */
-  
+
 .m {
   left: 0.44%;
   top: 0.63%;
