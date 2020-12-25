@@ -35,11 +35,96 @@
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* iPad Portrait */
+  body {
+    height: 3190px;
+  }
+  .head {
+    left: 7%;
+    top: 19%;
+    transform: scale(.7);
+  }
+  .b19 {
+    left: 15.3%;
+    top: 24.9%;
+  }
+  .b22 {
+    left: 7.3%;
+    top: 32.9%;
+  }
+  .b25 {
+    left: 20.3%;
+    top: 39.4%;
+  }
+  .b31 {
+    left: 72.8%;
+    top: 25.3%;
+  }
+  .b28 {
+    left: 80.8%;
+    top: 33.4%;
+  }
+  .b27 {
+    left: 75.9%;
+    top: 40.4%;
+  }
+  .text2 {
+    font-size: 30px;
+    left: 38.3%;
+  }
+.text3 {
+  left: 38.3%;
+}
+.ant4 {
+  left: 63%;
+    top: 57.7%;
+}
+.ant5 {
+  left: 54%;
+    top: 57.7%;
+}
+.ant9 {
+  top: 66.7%;
+}
+.ant10{
+  left: 35%;
+    top: 76.6%;
+}
+.info2 h1 {
+    left: 26%;
+    top: 83%;}
 
-  .head1 {display: none;}
-  .head2 {display: none;}
+@keyframes antss5 {
+    0% {top: 66.7%; left: 65%;}
+    50% {top: 67%; left: 64%;}
+    100% {top: 66.7%; left: 65%}
+    }
+    .round1 {
+          left: 59%;
+    }
+    .round2 {
+          top: 57%;
+    }
+    .round4 {
+      left: 26%;
+    top: 76%;
+    }
+    .rect {
+      height: 80px;
+      top: 99%;
+    }
+    .anim1, .anim2, .anim3, .anim4, .anim5, .anim6, .anim7, .anim8 {
+      top: 87.36%;
+    }
+.info2 {display: none;}
+.ant1, .ant2, .ant3, .ant6, .ant7, .ant8 {display: none;}
+.round5 {display: none;}
+.round3 {display: none;}
+.name, .logo {display: none;}
+  .head1 {display: none}
   .mini {display: none;}
   .lines_iphone {display: none;}
+  .head2 {display: none;}
+
 
 }
 
@@ -47,7 +132,7 @@
   /* промежуток */
 
    .head1 {display: none;}
-.lines_iphone {display: none;}
+   .lines_iphone {display: none;}
  }
 
 
