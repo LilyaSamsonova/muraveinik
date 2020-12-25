@@ -109,17 +109,20 @@
     top: 76%;
     }
     .rect {
-      height: 80px;
+      height: 100px;
       top: 99%;
     }
     .anim1, .anim2, .anim3, .anim4, .anim5, .anim6, .anim7, .anim8 {
       top: 87.36%;
+      animation: dance1 .6s steps(1) alternate infinite;
     }
-.info2 {display: none;}
+
+
+    .info2 {display: none;}
 .ant1, .ant2, .ant3, .ant6, .ant7, .ant8 {display: none;}
 .round5 {display: none;}
 .round3 {display: none;}
-.name, .logo {display: none;}
+ .name, .logo {display: none;}
   .head1 {display: none}
   .mini {display: none;}
   .lines_iphone {display: none;}
